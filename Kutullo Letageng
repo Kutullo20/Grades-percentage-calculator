@@ -1,0 +1,14 @@
+#This is a grade percentage calculator that i use to calculate my grades percentage
+#I used to spend most of the time calculating the percentage i got from my subject
+#then i did this small project
+#by Kutullo Letageng
+
+value1 = float,int(input("Enter the mark you got from your test / assignment/ examination:"))
+
+value2 = float,int(input("Enter the total of your test / assignment/ examination:"))
+
+value3 = float,int(input("Enter the weigh mark of your test / assignment/ examination:"))
+
+total = value1[1] / value2[1] * 100
+
+print("Your final percentage for this test / assignment/ examination is :",total, "%")
